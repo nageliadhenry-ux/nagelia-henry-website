@@ -153,13 +153,13 @@ export default function AboutPage() {
                   </div>
 
                   <motion.div initial={{ opacity:0, x:20 }} animate={{ opacity:1, x:0 }} transition={{ delay: 0.9, duration: 0.6 }} className="absolute -right-6 top-16 bg-white rounded-xl p-3 z-20 max-w-[140px]" style={{ transform: "rotate(3deg)", boxShadow: "0 4px 16px rgba(28,58,94,0.10)" }}>
-                    <p className="font-caveat text-navy text-sm leading-snug">"Always building."</p>
+                    <p className="font-caveat text-navy text-sm leading-snug">&ldquo;Always building.&rdquo;</p>
                   </motion.div>
                   <motion.div initial={{ opacity:0, x:-20 }} animate={{ opacity:1, x:0 }} transition={{ delay: 1.1, duration: 0.6 }} className="absolute -left-8 bottom-24 rounded-xl p-3 z-20 max-w-[150px]" style={{ transform: "rotate(-4deg)", background: "#D6EEE8", boxShadow: "0 4px 16px rgba(28,58,94,0.10)" }}>
-                    <p className="font-caveat text-navy text-sm leading-snug">"Community first. Always."</p>
+                    <p className="font-caveat text-navy text-sm leading-snug">&ldquo;Community first. Always.&rdquo;</p>
                   </motion.div>
                   <motion.div initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ delay: 1.3, duration: 0.6 }} className="absolute -bottom-2 right-0 bg-white rounded-xl p-3 z-20" style={{ transform: "rotate(2deg)", boxShadow: "0 4px 16px rgba(28,58,94,0.10)" }}>
-                    <p className="font-caveat text-ocean text-sm">"Marketing is storytelling."</p>
+                    <p className="font-caveat text-ocean text-sm">&ldquo;Marketing is storytelling.&rdquo;</p>
                   </motion.div>
                 </motion.div>
               </div>
@@ -218,7 +218,7 @@ export default function AboutPage() {
                 <p>Together, those places shaped the way I see the world — and the way I approach every project I create.</p>
               </div>
               <div className="mt-8 inline-block sticky-cream rounded-xl" style={{ transform: "rotate(-1.5deg)" }}>
-                <p className="font-caveat text-navy text-lg px-5 py-4">"Two worlds. One story."</p>
+                <p className="font-caveat text-navy text-lg px-5 py-4">&ldquo;Two worlds. One story.&rdquo;</p>
               </div>
             </FadeSection>
           </div>
@@ -257,7 +257,7 @@ export default function AboutPage() {
 
             <FadeSection delay={0.25}>
               <div className="space-y-6 font-sans text-base md:text-lg leading-relaxed text-left max-w-2xl mx-auto" style={{ color: "#3D3D3D" }}>
-                <p>When I was diagnosed with ovarian cancer, life slowed down in a way I never expected. For the first time, I wasn't thinking about what came next. I was thinking about what truly mattered.</p>
+                <p>When I was diagnosed with ovarian cancer, life slowed down in a way I never expected. For the first time, I wasn&apos;t thinking about what came next. I was thinking about what truly mattered.</p>
                 <p>That experience completely changed how I define success. I stopped chasing opportunities simply because they existed. I started choosing work that aligns with who I am, what I believe, and the impact I hope to make.</p>
                 <p className="font-serif text-lg italic" style={{ color: "#1C3A5E" }}>That chapter became the beginning of everything that came after.</p>
               </div>
@@ -326,7 +326,7 @@ export default function AboutPage() {
 
               <div className="mt-8 p-6 rounded-2xl" style={{ borderLeft: "3px solid #C9A96E", background: "rgba(245,217,138,0.12)" }}>
                 <p className="font-serif text-lg italic" style={{ color: "#1C3A5E", lineHeight: 1.5 }}>
-                  "Leadership isn't about titles. It's about creating environments where people feel seen."
+                  &ldquo;Leadership isn&apos;t about titles. It&apos;s about creating environments where people feel seen.&rdquo;
                 </p>
               </div>
 
@@ -375,7 +375,7 @@ export default function AboutPage() {
               <div className="space-y-6 font-sans text-base md:text-lg leading-relaxed text-left" style={{ color: "rgba(184,212,236,0.88)" }}>
                 <p>I absolutely love marketing because it combines psychology, creativity, storytelling, strategy, and human connection. The ability to understand people — and create experiences that make them feel something — is what excites me most.</p>
                 <p style={{ color: "rgba(214,238,232,0.82)" }}>Public relations has become my dream career because it sits at the intersection of creativity, communication, culture, and relationship building. I want to build campaigns people remember. Communities people want to belong to. Brands people genuinely trust.</p>
-                <p>Whether I'm working in beauty, hospitality, sports, luxury lifestyle, or entertainment, my goal is always the same:</p>
+                <p>Whether I&apos;m working in beauty, hospitality, sports, luxury lifestyle, or entertainment, my goal is always the same:</p>
               </div>
             </FadeSection>
 
@@ -405,8 +405,8 @@ export default function AboutPage() {
               </div>
               <h2 className="font-serif mb-8" style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", lineHeight: 1.1, color: "#1C3A5E" }}>Today.</h2>
               <div className="space-y-5 font-sans text-base leading-relaxed" style={{ color: "#3D3D3D" }}>
-                <p>Today I'm studying Digital Strategy &amp; Audience Engagement at Arizona State University's Walter Cronkite School. I'm continuing to build experience across every discipline that drives meaningful brands and communities.</p>
-                <p>Every experience continues shaping the marketer and communicator I'm becoming.</p>
+                <p>Today I&apos;m studying Digital Strategy &amp; Audience Engagement at Arizona State University&apos;s Walter Cronkite School. I&apos;m continuing to build experience across every discipline that drives meaningful brands and communities.</p>
+                <p>Every experience continues shaping the marketer and communicator I&apos;m becoming.</p>
               </div>
               <div className="mt-10 sticky rounded-xl" style={{ transform: "rotate(-1.2deg)" }}>
                 <p className="font-caveat text-navy text-lg px-2 py-1 leading-relaxed">

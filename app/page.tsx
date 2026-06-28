@@ -386,7 +386,7 @@ export default function HomePage() {
               </div>
 
               <p className="font-serif italic mb-8" style={{ fontSize: "clamp(1.8rem, 4vw, 3.2rem)", lineHeight: 1.2, color: "#FAF8F4" }}>
-                "The work has always<br />been about people."
+                &ldquo;The work has always<br />been about people.&rdquo;
               </p>
 
               <p className="font-sans text-base leading-relaxed mb-10" style={{ color: "rgba(184,212,236,0.82)" }}>
@@ -435,12 +435,12 @@ export default function HomePage() {
           <FadeSection className="max-w-2xl mx-auto text-center">
             <div className="flex items-center justify-center gap-4 mb-8">
               <div className="w-10 h-[1px]" style={{ background: "rgba(123,175,212,0.4)" }} />
-              <span className="font-sans text-[10px] font-medium uppercase tracking-[0.3em]" style={{ color: "#4A7FA5" }}>Let's Connect</span>
+              <span className="font-sans text-[10px] font-medium uppercase tracking-[0.3em]" style={{ color: "#4A7FA5" }}>Let&apos;s Connect</span>
               <div className="w-10 h-[1px]" style={{ background: "rgba(123,175,212,0.4)" }} />
             </div>
 
             <h2 className="font-serif mb-4" style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)", lineHeight: 1.08, color: "#1C3A5E" }}>
-              Let's build something<br /><em>memorable.</em>
+              Let&apos;s build something<br /><em>memorable.</em>
             </h2>
             <p className="font-sans text-base leading-relaxed mb-10" style={{ color: "#6B6B6B" }}>
               Available for internships, brand collaborations, and creative partnerships.

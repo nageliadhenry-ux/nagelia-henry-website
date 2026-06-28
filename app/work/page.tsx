@@ -564,7 +564,7 @@ export default function WorkPage() {
                 University Student Senate
               </h2>
               <p className="font-sans text-sm mb-6 leading-relaxed" style={{ color: "#6B6B6B" }}>
-                As Director of Engagement, I was responsible for the student body's connection to its institution. That meant more than sending emails — it meant building a real presence.
+                As Director of Engagement, I was responsible for the student body&apos;s connection to its institution. That meant more than sending emails — it meant building a real presence.
               </p>
 
               <div className="space-y-4">
@@ -631,7 +631,7 @@ export default function WorkPage() {
       <section className="py-24 text-center" style={{ background: "#FAF8F4" }}>
         <motion.div initial={{ opacity:0, y:24 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }} transition={{ duration: 0.8 }} className="max-w-xl mx-auto px-6">
           <div className="flex justify-center mb-6"><Butterfly size={36} opacity={0.38} /></div>
-          <h2 className="font-serif mb-4" style={{ fontSize: "2.2rem", color: "#1C3A5E" }}>Let's create something together.</h2>
+          <h2 className="font-serif mb-4" style={{ fontSize: "2.2rem", color: "#1C3A5E" }}>Let&apos;s create something together.</h2>
           <p className="font-sans text-sm leading-relaxed mb-8" style={{ color: "#6B6B6B" }}>Available for internships, collaborations, and brand partnerships.</p>
           <Link href="/contact" className="btn-primary">Get in Touch</Link>
         </motion.div>
