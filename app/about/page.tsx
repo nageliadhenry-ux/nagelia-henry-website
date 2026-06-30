@@ -343,6 +343,14 @@ export default function AboutPage() {
                     </div>
                   </div>
                 ))}
+                {/* HubSpot Certification */}
+                <div className="flex items-start gap-3 pt-1">
+                  <span className="text-base flex-shrink-0 mt-0.5">🎓</span>
+                  <div>
+                    <p className="font-sans text-[9px] font-bold uppercase tracking-[0.28em]" style={{ color: "#FF7A59" }}>HubSpot Academy</p>
+                    <p className="font-serif text-base mt-0.5" style={{ color: "#3D3D3D" }}>Digital Marketing Certification</p>
+                  </div>
+                </div>
               </div>
             </FadeSection>
           </div>

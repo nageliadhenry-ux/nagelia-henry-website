@@ -243,7 +243,7 @@ export default function LeadershipPage() {
             </div>
             <h2 className="font-serif" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "#1C3A5E" }}>Awards &amp; Certifications</h2>
           </AnimatedSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { icon: "✦", title: "Student Social Justice Campus Champion Award", org: "The New School — Student Leadership and Transition Experiences", date: "April 2026" },
               { icon: "✦", title: "University Student Senate Certificate of Completion", org: "The New School", date: "April 2026" },
@@ -257,6 +257,21 @@ export default function LeadershipPage() {
                 </div>
               </AnimatedSection>
             ))}
+            {/* HubSpot Certification */}
+            <AnimatedSection delay={0.2}>
+              <div className="rounded-3xl p-8 h-full transition-all duration-300 hover:-translate-y-1 overflow-hidden" style={{ background: "#FFFAF8", border: "1px solid rgba(255,122,89,0.2)", boxShadow: "0 2px 16px rgba(255,122,89,0.07)" }}>
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-6" style={{ background: "rgba(255,122,89,0.1)" }}>
+                  <span className="text-lg">🎓</span>
+                </div>
+                <p className="font-sans text-[9px] font-bold uppercase tracking-[0.28em] mb-2" style={{ color: "#FF7A59" }}>HubSpot Academy</p>
+                <h3 className="font-serif text-xl mb-3 leading-tight" style={{ color: "#1C3A5E" }}>Digital Marketing Certification</h3>
+                <div className="flex flex-wrap gap-1.5 mt-4">
+                  {["SEO", "Content Strategy", "Social Media", "Email Marketing", "Campaign Analytics"].map(s => (
+                    <span key={s} className="font-sans text-[9px] font-medium px-2.5 py-1 rounded-full" style={{ background: "rgba(255,122,89,0.09)", color: "#FF7A59" }}>{s}</span>
+                  ))}
+                </div>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>

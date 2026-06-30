@@ -61,6 +61,26 @@ export default function ResumePage() {
                 </div>
               </div>
             </AnimatedSection>
+            <AnimatedSection delay={0.08}>
+              <div className="rounded-3xl p-8 overflow-hidden" style={{ background: "#FAF8F4", border: "1px solid rgba(255,122,89,0.18)" }}>
+                <p className="label mb-7">Certifications</p>
+                <div className="flex gap-4 items-start">
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: "rgba(255,122,89,0.1)" }}>
+                    <span className="text-base">🎓</span>
+                  </div>
+                  <div className="flex-1">
+                    <p className="font-sans text-[9px] font-bold uppercase tracking-[0.28em] mb-1" style={{ color: "#FF7A59" }}>HubSpot Academy</p>
+                    <p className="font-serif text-base leading-snug" style={{ color: "#1C3A5E" }}>Digital Marketing Certification</p>
+                    <div className="flex flex-wrap gap-1.5 mt-3">
+                      {["SEO", "Content Strategy", "Social Media", "Email Marketing", "Campaign Analytics"].map(s => (
+                        <span key={s} className="font-sans text-[9px] font-medium px-2.5 py-1 rounded-full" style={{ background: "rgba(255,122,89,0.09)", color: "#FF7A59" }}>{s}</span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+
             <AnimatedSection delay={0.1}>
               <div className="bg-cream-dark rounded-3xl p-8">
                 <p className="label mb-7">Awards</p>
